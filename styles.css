@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+}
+
+#calc {
+  margin: auto;
+  font-size: 3rem;
+}
+
+.row {
+  display: flex;
+  gap: 4px;
+  margin-block: 4px;
+}
+
+button {
+  font-size: 2rem;
+  padding-block: 1em;
+  width: 7ch;
+  cursor: pointer;
+}
+
+#display {
+  background-color: grey;
+  text-align: right;
+  padding: 0.25em;
+  font-size: 1.25em;
+}
+
+.operator {
+  margin-inline: 12px;
+}
